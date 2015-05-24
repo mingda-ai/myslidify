@@ -1,0 +1,40 @@
+---
+title       : A sample for slidify
+subtitle    : 
+author      : Mingda Ai
+job         : 
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+---
+
+## mtcars dataset
+
+1. mtcars has 11 variables
+2. they are mpg cyl disp  hp drat    wt  qsec vs am gear carb
+
+--- .class #id 
+
+## Some lines in mtcars
+```{r}
+head(mtcars)   
+
+```
+
+--- .class #id
+
+## histgraph for mpg
+```{r}
+hist(mtcars$mpg)   
+```
+
+--- .class #id
+
+## Q&A
+
+
+
+
